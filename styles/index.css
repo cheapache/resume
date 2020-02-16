@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Droid Sans';
+    src: url('../fonts/DroidSans.eot');
+    src: url('../fonts/DroidSans.eot?#iefix') format('embedded-opentype'), url('../fonts/DroidSans.woff2') format('woff2'), url('../fonts/DroidSans.woff') format('woff'), url('../fonts/DroidSans.ttf') format('truetype'), url('../fonts/DroidSans.svg#DroidSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'supermarket';
+    src: url('../fonts/subset-supermarket.eot');
+    src: url('../fonts/subset-supermarket.eot?#iefix') format('embedded-opentype'), url('../fonts/subset-supermarket.woff2') format('woff2'), url('../fonts/subset-supermarket.woff') format('woff'), url('../fonts/subset-supermarket.ttf') format('truetype'), url('../fonts/subset-supermarket.svg#supermarket') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (min-width: 1024px) {
+    #col-mobile {
+        border-right: 1px solid white !important;
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.content-center {
+    text-align: center;
+}
+
+.content-right {
+    text-align: right;
+}
+
+.content-left {
+    text-align: left;
+}
+
+.content-header {
+    background-color: #333;
+    width: 100vw;
+    padding-top: 7.5vh;
+    padding-bottom: 2vh;
+}
+
+.content-body {
+    background-color: white;
+    width: 100vw;
+}
+
+.content-footer {
+    background-color: #333;
+    width: 100vw;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+}
+
+.lb-name-header {
+    color: white;
+    font-size: 4em;
+    font-family: 'Droid Sans';
+}
+
+.lb-position-header {
+    color: white;
+    font-size: 2em;
+    font-family: 'Droid Sans';
+    font-weight: bold;
+}
+
+.icons-header {
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.lb-icons-header {
+    padding-top: 10px;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Droid Sans';
+}
+
+.img-profile {
+    border-radius: 50%;
+}
+
+.lb-introduce {
+    color: #333;
+    font-size: 1.8em;
+    font-family: 'Droid Sans';
+    vertical-align: middle;
+}
+
+.lb-title {
+    color: #333;
+    font-size: 2em;
+    font-family: 'Droid Sans';
+    font-weight: bold;
+}
+
+li {
+    font-size: 1.5em;
+    font-family: 'supermarket';
+    font-weight: bold;
+}
+
+h3 {
+    color: #333;
+    font-family: 'Droid Sans';
+    font-weight: bold;
+}
+
+.p-details {
+    font-size: 1.5em;
+    font-family: 'Droid Sans' !important;
+}
