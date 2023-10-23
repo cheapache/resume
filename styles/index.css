@@ -39,7 +39,8 @@ body {
 }
 
 .content-header {
-    background-color: #333;
+    /* background-color: #333; */
+    background: linear-gradient(to bottom, #333, #535252);
     width: 100vw;
     padding-top: 7.5vh;
     padding-bottom: 2vh;
@@ -51,7 +52,8 @@ body {
 }
 
 .content-footer {
-    background-color: #333;
+    /* background-color: #333; */
+    background: linear-gradient(to top, #333, #535252);
     width: 100vw;
     padding-top: 3vh;
     padding-bottom: 2vh;
@@ -114,6 +116,35 @@ h3 {
 }
 
 .p-details {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: 'Droid Sans' !important;
+    font-weight: lighter;
+}
+
+.arrow-pointer {
+    margin-right: 1.5vw;
+}
+
+.img-stacks {
+    width: 4vw;
+    margin: 5px;
+    border-radius: 50%; /* Rounded images */
+}
+
+.img-stacks:hover {
+    transform: scale(1.2); /* Enlarge the image on hover */
+    transition: transform 0.3s ease;
+}
+
+.stack-menu {
+    text-align: center;
+}
+
+.ul-stack {
+    list-style-type: none;
+    padding: 0;
+}
+
+.li-stack {
+    padding: 10px 0;
 }
